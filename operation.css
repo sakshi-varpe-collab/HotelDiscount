@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 60%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    padding-left: 1vw;
+    padding-top: 1.5vw;
+}
+
+.box{
+    height: 55vh;
+    width: 20vw;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 2vw;
+    position: relative;
+}
+
+.upperbox{
+    height: 50%;
+    width: 100%;
+    background-color: brown;
+}
+
+.lowerbox{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    padding:1.5vw 0 0 2vw;
+}
+
+.lowerbox h1{
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.lowerbox h2{
+    padding-top: .8vw;
+    font-size: 1.5vw;
+}
+
+.lowerbox h3{
+    padding-top: .8vw;
+}
+
+.lowerbox h4{
+    padding-top: .8vw;
+    font-size: 1.5vw;
+}
+
+.position{
+    height: 60px;
+    width: 60px;
+    background-color: lightgreen;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    right: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position h1{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
